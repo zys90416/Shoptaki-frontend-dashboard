@@ -1,0 +1,45 @@
+.AdministratorApp {
+}
+
+.AdministratorApp #no-app2 {
+	text-align: center;
+	letter-spacing: 0.4px;
+	color: #000000;
+	opacity: 0.3;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.administrator-wrap {
+	text-align: center;
+	height: 162px;
+}
+
+.AdministratorApp .flex-a {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.AdministratorApp #create-app2 {
+	/* grayscale / white */
+
+	background-color: #ffffff;
+	opacity: 0.15;
+	border: 1px solid #bdbaba;
+	box-sizing: border-box;
+	border-radius: 8px;
+	width: 300px;
+	height: 157px;
+	margin-top: 43px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	opacity: 0.4;
+	font-weight: 500;
+	font-size: 16px;
+}

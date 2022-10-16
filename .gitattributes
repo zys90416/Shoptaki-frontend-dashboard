@@ -1,0 +1,13 @@
+* text eol=crlf
+
+*.md text
+*.py text
+*.js text
+*.sh text
+*.json text
+Dockerfile text
+
+#binary files
+*.png binary
+*.ico binary
+

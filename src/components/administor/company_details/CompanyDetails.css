@@ -1,0 +1,97 @@
+.CompanyDetails h1 {
+	font-size: 20px;
+	text-align: left;
+}
+.CompanyDetails {
+	margin: 0 auto;
+	position: relative;
+}
+
+.CompanyDetails .flex_review {
+	padding: 0;
+}
+.CompanyDetails .flex_review div {
+	margin: 0;
+	padding: 10px 0;
+	border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.CompanyDetails .flex_review div:nth-child(5) {
+	border-right: none;
+	flex: 189;
+}
+.CompanyDetails .flex_review div:nth-child(1) {
+	flex: 300;
+}
+
+.CompanyDetails .flex_review div:nth-child(2) {
+	flex: 302;
+}
+
+.CompanyDetails .flex_review div:nth-child(3) {
+	flex: 153;
+}
+
+.CompanyDetails .flex_review div:nth-child(4) {
+	flex: 330;
+}
+
+.CompanyDetails .company_details_wrap {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.CompanyDetails .company_details_wrap {
+	padding-bottom: 0;
+	box-shadow: none;
+}
+
+.CompanyDetails .add_new_company {
+	display: inline-block;
+	background-color: #005d9c;
+	box-sizing: border-box;
+	border-radius: 4px;
+
+	height: 44px;
+	color: white;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+	border-radius: 4px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 16px;
+	font-size: 14px;
+	margin-right: 10px;
+}
+.CompanyDetails .flex2 {
+	display: flex;
+	justify-content: end;
+	position: absolute;
+	right: 0px;
+	top: -8px;
+}
+.CompanyDetails .flex2 svg {
+	position: relative;
+	top: 15px;
+	left: 23px;
+}
+.CompanyDetails .search {
+	display: inline-block;
+	border: 1px solid #005d9c;
+	box-sizing: border-box;
+	border-radius: 4px;
+	height: 44px;
+	color: #005d9c;
+
+	border-radius: 4px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 16px;
+	padding-left: 25px;
+	font-size: 14px;
+	margin-right: 10px;
+}

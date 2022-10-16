@@ -1,0 +1,42 @@
+.SideNav {
+	box-sizing: border-box;
+	text-align: left;
+	margin-top: 31px;
+}
+
+.SideNav .nav-wrap .nav-text {
+	display: inline-block;
+	margin-bottom: 19px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 26px;
+	color: #000000;
+}
+
+.SideNav .nav-wrap hr {
+	height: 0px;
+	border: 1px solid #e5e5e5;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 39px;
+}
+.SideNav .nav-phase {
+	position: relative;
+}
+.SideNav .nav-phase .phase {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 21px;
+	opacity: 0.4;
+	color: #000000;
+	margin-left: calc(34vw / 1440 * 100);
+}
+.SideNav .nav-phase .progress-bar {
+	position: absolute;
+	left: 0;
+	width: 7px;
+}
+.SideNav .nav-phase .phase {
+	margin-bottom: 58px;
+}

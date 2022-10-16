@@ -1,0 +1,43 @@
+.SideNavD {
+	background-color: white;
+	width: 200px;
+	margin-top: 0;
+	padding: 10px;
+	padding-top: 30px;
+	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
+	min-height: 100%;
+	box-sizing: border-box;
+}
+
+.nav-wrap {
+	height: 100%;
+}
+.clicked_sn svg {
+	background-color: red;
+}
+.SideNavD .nav-phase div {
+	margin-top: 20px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	color: black;
+	text-align: left;
+	padding-left: 40px;
+}
+.SideNavD select {
+	width: 180px;
+	height: 30px;
+	background-color: #f8f8f8;
+	border: 1px solid #dfe0eb;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+
+.SideNavD #tiktok {
+	position: absolute;
+	top: 35px;
+	left: 30px;
+}
+.SideNavD svg {
+	vertical-align: middle;
+}

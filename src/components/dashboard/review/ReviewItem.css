@@ -1,0 +1,58 @@
+.flex_reviewitem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid grey;
+	margin: 10px 10px;
+	padding-bottom: 10px;
+	gap: 10px;
+	font-size: 12px;
+	text-align: center;
+	padding-right: 30px;
+}
+.flex_reviewitem .description_review {
+	text-align: left;
+}
+
+.flex_reviewitem .delete_icon {
+	position: absolute;
+	right: 8px;
+}
+.flex_reviewitem .access {
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.flex_reviewitem .access_re {
+	background-color: rgb(236, 236, 236);
+	padding: 5px;
+	border-radius: 20px;
+	color: black;
+	font-weight: 500;
+}
+
+.flex_reviewitem .description_re,
+.full_detail_re {
+	font-size: 12px;
+}
+
+.flex_reviewitem div:first-child {
+	flex: 294;
+}
+
+.flex_reviewitem div:nth-child(2) {
+	flex: 150;
+}
+
+.flex_reviewitem div:nth-child(3) {
+	flex: 130;
+}
+
+.flex_reviewitem div:nth-child(4) {
+	flex: 183;
+}
+
+.flex_reviewitem div:nth-child(5) {
+	flex: 220;
+}
+

@@ -1,0 +1,30 @@
+.DashBoardRouter .content-wrap2 {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: max(100vh, 100%);
+}
+.DashBoardRouter .flex_router {
+	display: flex;
+	justify-content: center;
+}
+.DashBoardRouter #side {
+	position: absolute;
+	top: 109px;
+	left: 0;
+	width: 200px;
+	height: 100%;
+}
+
+.DashBoardRouter #main {
+	margin-left: 200px;
+	width: 100%;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.DashBoardRouter #main h1 {
+	font-size: 22px;
+}
+.DashBoardRouter #main h2 {
+	font-size: 18px;
+}

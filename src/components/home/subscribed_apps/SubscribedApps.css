@@ -1,0 +1,32 @@
+.DashBoard {
+	margin-left: 36px;
+	margin-top: 44px;
+}
+.DashBoard #no-app {
+	text-align: center;
+	letter-spacing: 0.4px;
+	color: #000000;
+	opacity: 0.3;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.DashBoard .subscribed-app {
+	background: #ffffff;
+	border: 1px solid #dfdede;
+	margin-top: 43px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	width: 300px;
+	height: 116px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.DashBoard #create-app {
+	position: absolute;
+	right: 0;
+	top: -60px;
+}

@@ -1,0 +1,35 @@
+.LoginOpt {
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+
+.styles_react-code-input-container__tpiKG {
+	width: 380px !important;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.styles_react-code-input__CRulA {
+	border-radius: 0;
+	margin-left: 35px;
+}
+.styles_react-code-input__CRulA input {
+	margin-right: 5px;
+	border: 1px solid transparent;
+	border-bottom: 1px solid black;
+}
+
+.styles_react-code-input__CRulA input:focus {
+	border: 1px solid transparent;
+	border-bottom: 1px solid #005d9c;
+}
+
+.styles_react-code-input__CRulA > input:first-child {
+	border-right: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.styles_react-code-input__CRulA > input:last-child {
+	border-right: 0px;
+	border-bottom-right-radius: 0px;
+}

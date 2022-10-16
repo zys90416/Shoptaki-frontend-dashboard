@@ -1,0 +1,22 @@
+.CountryCode {
+	position: relative;
+}
+
+.CountryCode select {
+	width: 70px;
+	height: 40px;
+	position: absolute;
+	left: 0;
+	top: 38px;
+	border: 0px solid #d9d9d9;
+	border-left: 1px solid #d9d9d9;
+	border-right: 1px solid #d9d9d9;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.CountryCode option {
+	position: absolute;
+	right: 0;
+}

@@ -1,0 +1,16 @@
+.CompanyDetails #skip {
+	position: absolute;
+	right: calc(78vw / 1440 * 100);
+	font-weight: 500;
+	font-size: 22px;
+	color: #000000;
+	opacity: 0.4;
+}
+
+.CompanyDetails #phone-number {
+	padding-left: 80px;
+}
+
+.CompanyDetails #country {
+	top: 37px !important;
+}

@@ -1,0 +1,23 @@
+.InputField .field {
+	width: 100%;
+	height: 42px;
+	/* Auto Layout */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 4px;
+	/* Neutral/1 */
+	background: #ffffff;
+	/* Neutral/5 */
+	border: 1px solid #d9d9d9;
+	box-sizing: border-box;
+	border-radius: 4px;
+
+	/* Inside Auto Layout */
+	flex: none;
+	order: 1;
+	align-self: stretch;
+	flex-grow: 1;
+	margin: 0px 0px;
+}
+

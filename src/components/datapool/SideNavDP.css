@@ -1,0 +1,144 @@
+/* .SideNavDP #side {
+	position: absolute;
+	top: 109px;
+	left: 0;
+	width: 200px;
+	height: 100%;
+} */
+.SideNavDP {
+	position: sticky;
+	background-color: white;
+	/* width: 200px; */
+	margin-top: 0;
+	padding: 0px;
+	padding-top: 30px;
+	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
+	/* min-height: 100%; */
+    box-sizing: border-box;
+    
+    height: 914px;
+    width: 320px;
+    left: 0px;
+	top: 50px;
+	/* background: black; */
+	/* z-index: 1; */
+	float: left;
+/* border-radius: 0px; */
+
+}
+
+.SideNavDP .nav-wrap {
+	height: 100%;
+}
+
+.SideNavDP .nav{
+	padding-left: 10px;
+
+}
+
+/* .SideNavDP .nav div {
+	
+} */
+
+.SideNavDP .nav .home{
+	/* background: #E9E5E5; */
+
+	margin-top: 20px;
+	/* height: 0px; */
+	font-size: 18px;
+	line-height: 55px;
+	color: black;
+	text-align: left;
+	text-indent: 50px;
+	/* padding-left: 35px; */
+
+	height: 61px;
+width: 290px;
+left: 50px;
+top: 142px;
+box-shadow: 1px 0px 1px rgba(172, 169, 169, 0.25);
+/* border-radius: 10px; */
+/* background: #a09c9c; */
+
+}
+
+.SideNavDP .nav .categories{
+	/* background: #f2efef; */
+
+	margin-top: 10px;
+	/* height: 0px; */
+	font-size: 18px;
+	line-height: 55px;
+	color: black;
+	text-align: left;
+	text-indent: 50px;
+	/* padding-left: 35px; */
+
+	height: 250px;
+width: 290px;
+left: 50px;
+top: 142px;
+box-shadow: 1px 0px 2px rgba(159, 157, 157, 0.25);
+/* border-radius: 10px; */
+/* background: #FBF8F8; */
+}
+
+.SideNavDP .tags{
+	margin-top: 25px;
+}
+.SideNavDP .type{
+	display: flex;
+	flex-direction: row;
+	padding-left: 10px;
+}
+.SideNavDP .cost{
+	display: flex;
+	flex-direction: row;
+	padding-left: 50px;
+}
+
+.SideNavDP .type div {
+	/* flex-direction: row; */
+	/* display: flex; */
+	margin-top: 15px;
+	line-height: 25px;
+	color: black;
+	text-align: center;
+	height: 25px;
+width: 90px;
+left: 45px;
+top: 316px;
+border-radius: 50px;
+background: #E9E5E5;
+margin-left: 5px;/* padding-left: 10px; */
+
+}
+.SideNavDP .cost div {
+	/* flex-direction: row; */
+	/* display: flex; */
+	margin-top: 15px;
+	line-height: 25px;
+	color: black;
+	text-align: center;
+	height: 25px;
+width: 90px;
+left: 100px;
+top: 316px;
+border-radius: 50px;
+background: #E9E5E5;
+margin-left: 10px;
+
+}
+
+.SideNavDP .divider{
+	height: 0px;
+width: 290px;
+left: 0px;
+/* top: 3242px; */
+border-radius: nullpx;
+opacity: 0.5;
+color:rgba(0, 0, 0, 0.26)
+}
+/* .SideNavDP svg {
+	vertical-align: middle;
+} */

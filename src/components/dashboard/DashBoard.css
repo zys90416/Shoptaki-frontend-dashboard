@@ -1,0 +1,76 @@
+.DashBoard2 {
+	box-sizing: border-box;
+	height: 330px;
+	max-width: 1000px;
+	margin: 0 auto;
+	border-radius: 5px;
+	margin-top: 0px;
+	position: relative;
+	text-align: left;
+}
+
+.DashBoard2 h1 {
+	font-size: 22px;
+}
+.DashBoard2 h2 {
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.DashBoard2 hr {
+	color: rgba(223, 224, 235, 0.8);
+	opacity: 0.4;
+}
+.DashBoard2 .flex {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+}
+
+.DashBoard2 .flex #dashboard-l,
+#dashboard-r {
+	flex: 1;
+	height: 220px;
+	background: #ffffff;
+	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	padding: 10px 40px;
+}
+
+#view_detail {
+	font-size: 14px;
+	display: inline-block;
+	background-color: #f8f8f8;
+	border: 1px solid #dfe0eb;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+
+.DashBoard2 .flex_db {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.DashBoard2 #progress_db {
+	height: 10px;
+	width: 100%;
+	background-color: #d9d9d9;
+	margin-top: 6px;
+}
+
+.DashBoard2 #user_rate_limit {
+	border: 1px solid #dfe0eb;
+	box-sizing: border-box;
+	border-radius: 2px;
+	width: 232px;
+
+	text-align: center;
+	background-color: #f8f8f8;
+}
+
+.DashBoard2 .flex2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

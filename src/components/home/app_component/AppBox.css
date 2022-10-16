@@ -1,0 +1,52 @@
+.AppBox #picture {
+	width: 80px;
+	height: 80px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40px 40px;
+}
+
+.appbox-wrap {
+	flex-basis: 200px;
+}
+.administrator-box {
+	border-top: 1px solid #dfdede;
+	border: 1px solid #dfdede;
+	height: 40px;
+	border-radius: 8px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.administrator-box span {
+	position: absolute;
+	left: 15px;
+	top: 8px;
+}
+
+.administrator-box #dot {
+	position: absolute;
+	right: 15px;
+	top: 2px;
+	height: 35px;
+}
+.administrator-box #remove {
+	text-align: center;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	right: 0;
+	top: 38px;
+	background-color: #ffffff;
+	border: 1px solid #dfdede;
+	border-radius: 3px;
+	user-select: none;
+}
+.noselect {
+	user-select: none;
+}

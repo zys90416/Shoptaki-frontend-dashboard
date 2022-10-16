@@ -1,0 +1,36 @@
+.CompanyItem {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+.CompanyItem div {
+	height: 20px;
+	border-right: 1px solid rgba(0, 0, 0, 0.3);
+	margin: 0;
+	padding: 10px 0;
+}
+
+.CompanyItem div:nth-child(1) {
+	flex: 300;
+}
+
+.CompanyItem div:nth-child(2) {
+	flex: 302;
+}
+
+.CompanyItem div:nth-child(3) {
+	flex: 153;
+}
+
+.CompanyItem div:nth-child(4) {
+	flex: 330;
+}
+
+.CompanyItem div:nth-child(5) {
+	flex: 189;
+	border-right: none;
+}
+.CompanyItem svg {
+	margin-right: 5px;
+}

@@ -1,0 +1,65 @@
+.RemoveApp {
+	position: absolute;
+	z-index: 2;
+	background: #ffffff;
+	box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.RemoveApp #confirmation {
+	padding: 30px;
+}
+.RemoveApp #cancel,
+#cancel2 {
+	display: inline-block;
+	border: 1px solid #005d9c;
+	box-sizing: border-box;
+	border-radius: 4px;
+	width: 78px;
+	height: 44px;
+	color: #005d9c;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+	border-radius: 4px;
+	line-height: 44px;
+	text-align: center;
+	margin-right: 113px;
+	user-select: none;
+	cursor: pointer;
+}
+
+.RemoveApp #continue,
+#validate {
+	display: inline-block;
+	border: 1px solid #005d9c;
+	box-sizing: border-box;
+	border-radius: 4px;
+	width: 78px;
+	height: 44px;
+	color: white;
+	background-color: #005d9c;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+	border-radius: 4px;
+	line-height: 44px;
+	text-align: center;
+	user-select: none;
+	cursor: pointer;
+}
+
+.RemoveApp #validate {
+	margin-left: 60px;
+	width: 101px;
+}
+
+.RemoveApp #validate {
+	width: 101px;
+}
+
+.RemoveApp #cancel2 {
+	width: 101px;
+}
+
+#verification {
+	height: 400px;
+}

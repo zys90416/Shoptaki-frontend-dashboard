@@ -1,0 +1,41 @@
+.AppItem {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	height: 110px;
+	background: #ffffff;
+	border: 1px solid rgba(0, 0, 0, 0.24);
+	box-sizing: border-box;
+	box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	position: relative;
+}
+.AppItem #title {
+}
+.AppItem .pic1 {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background-color: #f2f2f2;
+	border-radius: 8px;
+	flex-grow: 0; /* do not grow   - initial value: 0 */
+	flex-shrink: 0; /* do not shrink - initial value: 1 */
+	flex-basis: 80px; /* width/height  - initial value: auto */
+	margin-right: 10px;
+}
+
+.AppItem .text1 {
+	height: 80px;
+}
+
+.AppItem input {
+	position: absolute;
+	right: 5px;
+	top: 15px;
+}
+
+.font14 {
+	font-size: 14px;
+}

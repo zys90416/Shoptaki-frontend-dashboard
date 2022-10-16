@@ -1,0 +1,44 @@
+.CreateApp h1 {
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+.CreateApp h2 {
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 18px;
+	margin-bottom: 5px;
+}
+
+.CreateApp p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.CreateApp {
+	height: 790px;
+}
+.CreateApp input[type='text'] {
+	border: 1px solid #d9d9d9;
+	box-sizing: border-box;
+	border-radius: 4px;
+	width: 100%;
+	height: 44px;
+}
+
+.CreateApp input[type='radio'] {
+	border: 1px solid #d9d9d9;
+	height: 23px;
+	width: 23px;
+	vertical-align: middle;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.CreateApp select {
+	width: 100%;
+	height: 44px;
+}
+.CreateApp {
+	margin-bottom: 40px;
+}

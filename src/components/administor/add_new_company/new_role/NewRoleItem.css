@@ -1,0 +1,45 @@
+.NewRoleItem {
+	padding: 0 10px;
+	display: flex;
+}
+
+.NewRoleItem div:nth-child(1) {
+	flex: 300;
+}
+.NewRoleItem div:nth-child(2) {
+	flex: 300;
+}
+.NewRoleItem div:nth-child(3) {
+	flex: 300;
+}
+.NewRoleItem div:nth-child(4) {
+	flex: 216;
+}
+.NewRoleItem div:nth-child(5) {
+	flex: 101;
+}
+
+.NewRoleItem input {
+	width: 90%;
+	height: 42px;
+	/* Neutral/1 */
+
+	background: #ffffff;
+	/* Neutral/5 */
+
+	border: 1px solid #d9d9d9;
+	box-sizing: border-box;
+	border-radius: 4px;
+
+	/* Inside Auto Layout */
+
+	flex: none;
+	order: 1;
+	align-self: stretch;
+	flex-grow: 1;
+	margin: 0px 0px;
+}
+
+.NewRoleItem .add_new_role_wrap {
+	margin-top: 29px;
+}
