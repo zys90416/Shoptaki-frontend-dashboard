@@ -1,12 +1,19 @@
 import React from 'react'
 import './UserProfile.css'
+import {useHistory} from "react-router-dom";
 
 export default function UserProfile() {
+	let history = useHistory()
+	const handleClick_edit = () => {
+		history.push({
+			pathname:'/userprofile/edit',
+		})
+	}
 	return (
 		<div className='UserProfile'>
 			<div className='content_user'>
 				<h1>User Profile</h1>
-				<button className='btn-edit' type='button'>Edit Profile</button>
+				<a className='btn-edit ' type='button' onClick={handleClick_edit}>Edit Profile</a>{/*add line to new page*/}
 			</div>
 			<div className='infoForm'>
 				<div className='item_wrap'>
